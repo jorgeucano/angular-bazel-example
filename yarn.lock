@@ -2,9 +2,9 @@
 # yarn lockfile v1
 
 
-"@angular/animations@5.2.3":
-  version "5.2.3"
-  resolved "https://registry.yarnpkg.com/@angular/animations/-/animations-5.2.3.tgz#e0eb8d55f807e799df128af9150c075c9ab82adf"
+"@angular/animations@5.2.10":
+  version "5.2.10"
+  resolved "https://registry.yarnpkg.com/@angular/animations/-/animations-5.2.10.tgz#61718792e0922ac622fd7c6dfb0afbb996638692"
   dependencies:
     tslib "^1.7.1"
 
@@ -14,42 +14,42 @@
   dependencies:
     "@types/node" "6.0.84"
 
-"@angular/common@5.2.3":
-  version "5.2.3"
-  resolved "https://registry.yarnpkg.com/@angular/common/-/common-5.2.3.tgz#f2a5c12ec44b73a248d8dcb2d37ac2749f091cf7"
+"@angular/common@5.2.10":
+  version "5.2.10"
+  resolved "https://registry.yarnpkg.com/@angular/common/-/common-5.2.10.tgz#828308df8505a31f219a6895ff91dbb178ebac98"
   dependencies:
     tslib "^1.7.1"
 
-"@angular/compiler-cli@5.2.3":
-  version "5.2.3"
-  resolved "https://registry.yarnpkg.com/@angular/compiler-cli/-/compiler-cli-5.2.3.tgz#75b39a346f1b2a95ebc403016d19fc33d5315221"
+"@angular/compiler-cli@5.2.10":
+  version "5.2.10"
+  resolved "https://registry.yarnpkg.com/@angular/compiler-cli/-/compiler-cli-5.2.10.tgz#7e9dead0730dc20f7658e110a558b557b60e7be2"
   dependencies:
     chokidar "^1.4.2"
     minimist "^1.2.0"
     reflect-metadata "^0.1.2"
-    tsickle "^0.26.0"
+    tsickle "^0.27.2"
 
-"@angular/compiler@5.2.3":
-  version "5.2.3"
-  resolved "https://registry.yarnpkg.com/@angular/compiler/-/compiler-5.2.3.tgz#49167adb35bdb5e7e915cce912c432300fc16816"
+"@angular/compiler@5.2.10":
+  version "5.2.10"
+  resolved "https://registry.yarnpkg.com/@angular/compiler/-/compiler-5.2.10.tgz#1cd9914436f0707957823531c4418ce5b7e6a130"
   dependencies:
     tslib "^1.7.1"
 
-"@angular/core@5.2.3":
-  version "5.2.3"
-  resolved "https://registry.yarnpkg.com/@angular/core/-/core-5.2.3.tgz#157dcb437d085b325513689e0e4ae70182f3f708"
+"@angular/core@5.2.10":
+  version "5.2.10"
+  resolved "https://registry.yarnpkg.com/@angular/core/-/core-5.2.10.tgz#a6eba06cae7267efbd2666e3fa5e42b84c2261de"
   dependencies:
     tslib "^1.7.1"
 
-"@angular/platform-browser-dynamic@5.2.3":
-  version "5.2.3"
-  resolved "https://registry.yarnpkg.com/@angular/platform-browser-dynamic/-/platform-browser-dynamic-5.2.3.tgz#87d5172da2c102c3cf48da29d39e9b4b9414b419"
+"@angular/platform-browser-dynamic@5.2.10":
+  version "5.2.10"
+  resolved "https://registry.yarnpkg.com/@angular/platform-browser-dynamic/-/platform-browser-dynamic-5.2.10.tgz#bec4c0ca9fb16c34adee851caa187989953216ca"
   dependencies:
     tslib "^1.7.1"
 
-"@angular/platform-browser@5.2.3":
-  version "5.2.3"
-  resolved "https://registry.yarnpkg.com/@angular/platform-browser/-/platform-browser-5.2.3.tgz#953df896839879e2b8ca89a364d66e3ac1dcd167"
+"@angular/platform-browser@5.2.10":
+  version "5.2.10"
+  resolved "https://registry.yarnpkg.com/@angular/platform-browser/-/platform-browser-5.2.10.tgz#92883803de7362e635748a440dd5f6172fc2394a"
   dependencies:
     tslib "^1.7.1"
 
@@ -75,8 +75,8 @@
   resolved "https://registry.yarnpkg.com/@types/node/-/node-6.0.84.tgz#193ffe5a9f42864d425ffd9739d95b753c6a1eab"
 
 "@types/node@^6.0.46":
-  version "6.0.96"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-6.0.96.tgz#7bf0bf40d6ce51e93762cc47d010c8cc5ebb2179"
+  version "6.0.97"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-6.0.97.tgz#72199848e8f3cfa975864031ac12e0ef6ccfe054"
 
 "@types/q@^0.0.32":
   version "0.0.32"
@@ -343,9 +343,9 @@ ci-info@^1.0.0:
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/ci-info/-/ci-info-1.1.2.tgz#03561259db48d0474c8bdc90f5b47b068b6bbfb4"
 
-clang-format@1.2.2:
-  version "1.2.2"
-  resolved "https://registry.yarnpkg.com/clang-format/-/clang-format-1.2.2.tgz#a7277a03fce9aa4e387ddaa83b60d99dab115737"
+clang-format@1.2.3:
+  version "1.2.3"
+  resolved "https://registry.yarnpkg.com/clang-format/-/clang-format-1.2.3.tgz#2763561aa7449c43737480f8df3a2b5b66e6cf37"
   dependencies:
     async "^1.5.2"
     glob "^7.0.0"
@@ -487,8 +487,8 @@ ecc-jsbn@~0.1.1:
     jsbn "~0.1.0"
 
 ecstatic@^3.0.0:
-  version "3.1.1"
-  resolved "https://registry.yarnpkg.com/ecstatic/-/ecstatic-3.1.1.tgz#2564aa9dde84179dcaf926a9e6d12df13a0b666d"
+  version "3.2.0"
+  resolved "https://registry.yarnpkg.com/ecstatic/-/ecstatic-3.2.0.tgz#1b1aee1ca7c6b99cfb5cf6c9b26b481b90c4409f"
   dependencies:
     he "^1.1.1"
     mime "^1.4.1"
@@ -1038,8 +1038,8 @@ lie@~3.1.0:
     immediate "~3.0.5"
 
 lodash@^4.5.1:
-  version "4.17.4"
-  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.4.tgz#78203a4d1c328ae1d86dca6460e369b57f4055ae"
+  version "4.17.5"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.5.tgz#99a92d65c0272debe8c96b6057bc8fbfa3bed511"
 
 micromatch@^2.1.5:
   version "2.3.11"
@@ -1286,9 +1286,9 @@ progress@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/progress/-/progress-2.0.0.tgz#8a1be366bf8fc23db2bd23f10c6fe920b4389d1f"
 
-protractor@5.3.0:
-  version "5.3.0"
-  resolved "https://registry.yarnpkg.com/protractor/-/protractor-5.3.0.tgz#5df98201cbdaeb50826af6d05630ef1945bf9c32"
+protractor@5.3.1:
+  version "5.3.1"
+  resolved "https://registry.yarnpkg.com/protractor/-/protractor-5.3.1.tgz#b8b8ac4ad2278bb7a461b99a34d79532095f14b8"
   dependencies:
     "@types/node" "^6.0.46"
     "@types/q" "^0.0.32"
@@ -1491,9 +1491,9 @@ rx@2.3.24:
   version "2.3.24"
   resolved "https://registry.yarnpkg.com/rx/-/rx-2.3.24.tgz#14f950a4217d7e35daa71bbcbe58eff68ea4b2b7"
 
-rxjs@5.5.6:
-  version "5.5.6"
-  resolved "https://registry.yarnpkg.com/rxjs/-/rxjs-5.5.6.tgz#e31fb96d6fd2ff1fd84bcea8ae9c02d007179c02"
+rxjs@5.5.10:
+  version "5.5.10"
+  resolved "https://registry.yarnpkg.com/rxjs/-/rxjs-5.5.10.tgz#fde02d7a614f6c8683d0d1957827f492e09db045"
   dependencies:
     symbol-observable "1.0.1"
 
@@ -1566,7 +1566,13 @@ sntp@2.x.x:
   dependencies:
     hoek "4.x.x"
 
-source-map-support@^0.4.2, source-map-support@~0.4.0:
+source-map-support@^0.5.0:
+  version "0.5.3"
+  resolved "https://registry.yarnpkg.com/source-map-support/-/source-map-support-0.5.3.tgz#2b3d5fff298cfa4d1afd7d4352d569e9a0158e76"
+  dependencies:
+    source-map "^0.6.0"
+
+source-map-support@~0.4.0:
   version "0.4.18"
   resolved "https://registry.yarnpkg.com/source-map-support/-/source-map-support-0.4.18.tgz#0286a6de8be42641338594e97ccea75f0a2c585f"
   dependencies:
@@ -1575,6 +1581,10 @@ source-map-support@^0.4.2, source-map-support@~0.4.0:
 source-map@^0.5.6:
   version "0.5.7"
   resolved "https://registry.yarnpkg.com/source-map/-/source-map-0.5.7.tgz#8a039d2d1021d22d1ea14c80d8ea468ba2ef3fcc"
+
+source-map@^0.6.0:
+  version "0.6.1"
+  resolved "https://registry.yarnpkg.com/source-map/-/source-map-0.6.1.tgz#74722af32e9614e9c287a8d0bbde48b5e2f1a263"
 
 spawn-command@^0.0.2-1:
   version "0.0.2-1"
@@ -1710,14 +1720,14 @@ tree-kill@^1.1.0:
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/tree-kill/-/tree-kill-1.2.0.tgz#5846786237b4239014f05db156b643212d4c6f36"
 
-tsickle@^0.26.0:
-  version "0.26.0"
-  resolved "https://registry.yarnpkg.com/tsickle/-/tsickle-0.26.0.tgz#40b30a2dd6abcb33b182e37596674bd1cfe4039c"
+tsickle@^0.27.2:
+  version "0.27.2"
+  resolved "https://registry.yarnpkg.com/tsickle/-/tsickle-0.27.2.tgz#f33d46d046f73dd5c155a37922e422816e878736"
   dependencies:
     minimist "^1.2.0"
     mkdirp "^0.5.1"
-    source-map "^0.5.6"
-    source-map-support "^0.4.2"
+    source-map "^0.6.0"
+    source-map-support "^0.5.0"
 
 tslib@^1.7.1:
   version "1.9.0"
