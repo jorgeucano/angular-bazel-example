@@ -44,6 +44,7 @@ node, npm, or yarn installed on a machine where you develop with Bazel.
 
 ```bash
 $ bazel run :install
+$ yarn install
 ```
 
 ## Development
