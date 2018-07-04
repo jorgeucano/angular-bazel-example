@@ -19,16 +19,9 @@
     <script src="/zone.min.js"></script>
 
     <!--
-      For development mode, this script will be bundled on-the-fly by
-      the devserver, based on the latest JS files built by Bazel.
-      For production, you should be able to use the same index.html file, but
-      this JS resource would be served from a static file.
-
-      To allow the same index.html file to be used for dev and prod mode, we
-      name the script "bundle.min.js". This is misleading since it's not
-      actually minified in dev mode. A possible resolution to this would be for
-      a server-side templating engine to write a dynamic index.html file.
+      SystemJS configuration for production code-splitting
     -->
-    <script src="/bundle.min.js"></script>
+    <script src="/system.js"></script>
+    <script src="/bundle.code-split.es5.js"></script>
   </body>
 </html>

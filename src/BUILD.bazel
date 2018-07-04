@@ -41,6 +41,10 @@ load("@build_bazel_rules_nodejs//:defs.bzl", "nodejs_binary", "rollup_bundle")
 
 rollup_bundle(
     name = "bundle",
+    additional_entry_points = [
+      "src/hello-world/hello-world.module.ngfactory",
+      "src/todos/todos.module.ngfactory",
+    ],
     entry_point = "src/main",
     deps = ["//src"],
 )
@@ -54,6 +58,13 @@ genrule(
     cmd = "cp $< $@",
 )
 
+genrule(
+    name = "systemjs",
+    srcs = ["//:node_modules/systemjs/dist/system.js"],
+    outs = ["system.js"],
+    cmd = "cp $< $@",
+)
+
 load("//tools/history-server:index.bzl", "history_server")
 
 history_server(
@@ -62,5 +73,6 @@ history_server(
         "index.html",
         ":bundle",
         ":zonejs",
+        ":systemjs",
     ],
 )
