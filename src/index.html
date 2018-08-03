@@ -18,10 +18,29 @@
     -->
     <script src="/zone.min.js"></script>
 
-    <!--
-      SystemJS configuration for production code-splitting
-    -->
-    <script src="/system.js"></script>
-    <script src="/bundle.code-split.es5.js"></script>
+    <script>
+      function doesFileExist(urlToFile) {
+        var xhr = new XMLHttpRequest();
+        xhr.open('HEAD', urlToFile, false);
+        xhr.send();
+        return xhr.status != '404';
+      }
+
+      function addScript(src) {
+        var s = document.createElement('script');
+        s.src = src;
+        s.async = false;
+        document.body.appendChild(s);
+      }
+
+      if (doesFileExist('/system.js')) {
+        // prodmode
+        addScript('/system.js');
+        addScript('/bundle.code-split.es5.js');
+      } else {
+        // devmode
+        addScript('/bundle.js');
+      }
+    </script>
   </body>
 </html>

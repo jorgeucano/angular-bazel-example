@@ -12,6 +12,7 @@ ng_module(
     deps = [
         "//src/hello-world",
         "//src/todos",
+        "@rxjs",
     ],
 )
 
@@ -23,12 +24,12 @@ ts_devserver(
         "angular_bazel_example/node_modules/zone.js/dist",
         "angular_bazel_example/node_modules/@ngrx/store/bundles",
     ],
-    entry_module = "angular_bazel_example/src/main",
+    entry_module = "angular_bazel_example/src/main.dev",
     scripts = [
         ":require.config.js",
         "//:angular_bundles",
     ],
-    serving_path = "/bundle.min.js",
+    serving_path = "/bundle.js",
     static_files = [
         "//:node_modules/zone.js/dist/zone.min.js",
         "//:node_modules/@ngrx/store/bundles/store.umd.min.js",
@@ -45,7 +46,7 @@ rollup_bundle(
       "src/hello-world/hello-world.module.ngfactory",
       "src/todos/todos.module.ngfactory",
     ],
-    entry_point = "src/main",
+    entry_point = "src/main.prod",
     deps = ["//src"],
 )
 
